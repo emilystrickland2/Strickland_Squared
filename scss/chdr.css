@@ -40,28 +40,28 @@ body {
 }
 
 .blueflavor {
-  color: #9ce9ff;
+  color: #54f798;
   font-weight: 700;
 }
 
 .orangeflavor {
-  color: #fdce7e;
+  color: #fa6485;
   font-weight: 700;
 }
 
 .orangebg {
-  background-color: #fdce7e;
+  background-color: #fa6485;
 }
 
 .supportbg {
-  background-image: linear-gradient(to left, #fdce7e, #9ce9ff);
+  background-image: linear-gradient(to left, #fa6485, #54f798);
   margin-left: auto;
   color: #000000;
   text-align: center;
 }
 
 .supportbg a:hover {
-  background-image: linear-gradient(to right, #fdce7e, #9ce9ff);
+  background-image: linear-gradient(to right, #fa6485, #54f798);
   border-radius: 5px;
   color: #000000;
   text-align: center;
@@ -106,7 +106,7 @@ img.displayed {
     width: 100%;
     min-height: 450px;
     opacity: 0.3;
-    background-image: linear-gradient(to right, #fdce7e, #9ce9ff);
+    background-image: linear-gradient(to right, #fa6485, #54f798);
     top:0;
     left:0;
     z-index:1;
@@ -118,7 +118,7 @@ img.displayed {
     width: 100%;
     min-height: 300px;
     opacity: 0.7;
-    background-image: linear-gradient(to right, #fdce7e, #9ce9ff);
+    background-image: linear-gradient(to right, #fa6485, #54f798);
     top:0;
     left:0;
     z-index:1;
@@ -163,7 +163,7 @@ img.displayed {
     color: black;
     font-size: 52px;
     font-weight: 700;
-    background-image: linear-gradient(to left, #fdce7e, #9ce9ff);
+    background-image: linear-gradient(to left, #fa6485, #54f798);
     padding: 5px;
     transform: translate(-50%, -50%);
 
@@ -176,7 +176,7 @@ img.displayed {
     left: 50%;
     z-index: 2;
     text-align: center;
-    background-image: linear-gradient(to left, #fdce7e, #9ce9ff);
+    background-image: linear-gradient(to left, #fa6485, #54f798);
     padding: 5px;
     transform: translate(-50%, -50%);
 
@@ -311,7 +311,7 @@ img.displayed {
   border-width: 3px;
 }
 .border-gradient-std {
-  border-image-source: linear-gradient(to left, #42d5ff, #fda819);
+  border-image-source: linear-gradient(to left, #54f798, #fa6485);
 }
 
 .video-container {
@@ -341,7 +341,7 @@ img.displayed {
 }
 
 .bottom-right-btn a:hover {
-  background-color: #fdce7e;
+  background-color: #fa6485;
   border-radius: 5px;
 }
 
