@@ -1,0 +1,435 @@
+/* CHDR CSS */
+
+
+
+body {
+  background-color: #f4f4f4;
+}
+
+
+.blackstripe {
+  background-color: #000000;
+  height: 1px;
+}
+
+.whitestripe {
+  background-color: #ffffff;
+  height: 3px;
+}
+
+.headerimage {
+  background-color: #f0f0f0;
+  justify-content: center;
+  background-image: url('../images/lbg.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.chdr {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 18px;
+}
+
+.footerfont {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 12px;
+}
+
+.blueflavor {
+  color: #9ce9ff;
+  font-weight: 700;
+}
+
+.orangeflavor {
+  color: #fdce7e;
+  font-weight: 700;
+}
+
+.orangebg {
+  background-color: #fdce7e;
+}
+
+.supportbg {
+  background-image: linear-gradient(to left, #fdce7e, #9ce9ff);
+  margin-left: auto;
+  color: #000000;
+  text-align: center;
+}
+
+.supportbg a:hover {
+  background-image: linear-gradient(to right, #fdce7e, #9ce9ff);
+  border-radius: 5px;
+  color: #000000;
+  text-align: center;
+}
+
+.black {
+  background-color: #000000;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  img.news {
+      display: float;
+      width: 200px;
+      height: 200px;
+      padding-right: 5px;
+      padding-bottom: 5px;
+    }
+
+    img.us {
+        display: float;
+        width: 200px;
+        height: 200px;
+        padding: 10px
+      }
+
+    img.ussm {
+        display: float;
+        width: 120px;
+        height: 120px;
+        padding: 10px
+      }
+
+.splashoverlay {
+    position:absolute;
+    width: 100%;
+    min-height: 450px;
+    opacity: 0.3;
+    background-image: linear-gradient(to right, #fdce7e, #9ce9ff);
+    top:0;
+    left:0;
+    z-index:1;
+    text-align: center;
+}
+
+.sectionsplashoverlay {
+    position:absolute;
+    width: 100%;
+    min-height: 300px;
+    opacity: 0.7;
+    background-image: linear-gradient(to right, #fdce7e, #9ce9ff);
+    top:0;
+    left:0;
+    z-index:1;
+    text-align: center;
+}
+
+.sectionsplashoverlayng {
+    position:absolute;
+    width: 100%;
+    min-height: 300px;
+    top:0;
+    left:0;
+    z-index:1;
+    text-align: center;
+}
+
+
+.newscard {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+.tweetwindow {
+  padding: 0px;
+  overflow: hidden;
+}
+
+.buffer {
+  min-height: 5px;
+  align-content: center;
+  align-items: center;
+}
+
+.splashtext {
+    position: absolute;
+    width:auto;
+    top : 50%;
+    left: 50%;
+    z-index: 2;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 52px;
+    font-weight: 700;
+    background-image: linear-gradient(to left, #fdce7e, #9ce9ff);
+    padding: 5px;
+    transform: translate(-50%, -50%);
+
+}
+
+.splashimageback {
+    position: absolute;
+    width:auto;
+    top : 50%;
+    left: 50%;
+    z-index: 2;
+    text-align: center;
+    background-image: linear-gradient(to left, #fdce7e, #9ce9ff);
+    padding: 5px;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.at {
+    font-size: 24px;
+}
+
+.c-first {
+  background-image: url('../images/bg-triangle4.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.c-body {
+  background-image: url('../images/bg-triangle2.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.module {
+  background-image: url('../images/obg.png');
+  position: relative;
+}
+
+.moduleheader {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.aboutheader {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.modulesubheader {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.footerstyle {
+  background-color: #676767;
+  text-align: right;
+}
+
+.grey {
+  background-color: #676767;
+}
+
+.modulefont {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.introfont {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.cardintrofont {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.aboutintrofont {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.aboutintrofontsm {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.bodyfont {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.linkcolor {
+  color: #0f0f0f;
+
+}
+
+.navfont {
+  font-family: halcom, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12pt;
+}
+
+.hfont {
+  font-family: interstate,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 34pt;
+}
+
+.bglt1 {
+  background-color: #f4fdff;
+  width: 100%;
+}
+
+.bglt2 {
+  background-color: #fffcf4;
+  width: 100%;
+}
+
+.border-gradient {
+  border: 3px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+}
+.border-gradient-std {
+  border-image-source: linear-gradient(to left, #42d5ff, #fda819);
+}
+
+.video-container {
+    min-height: 450px;
+    max-height: 450px;
+    overflow: hidden;
+    position: relative;
+}
+
+.sectionsplash {
+    min-height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.cardimage {
+    min-height: 225px;
+    overflow: hidden;
+    position: relative;
+}
+
+.bottom-right-btn {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  padding: 5px;
+}
+
+.bottom-right-btn a:hover {
+  background-color: #fdce7e;
+  border-radius: 5px;
+}
+
+.threeup {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.imgpad {
+  padding: 10px;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+
+.threeupheader {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.threeupheaderc {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.threeupfont {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.threeupcard {
+  background-color: #ffffff;
+}
+
+video {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.column1 {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+
+.row1 {margin: 0 -5px;}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  min-height: 330px;
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  .column1 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}

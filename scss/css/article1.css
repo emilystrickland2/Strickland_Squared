@@ -1,0 +1,261 @@
+/* The Case of the "Embryo Artist" and Vagrancy Laws in Segregated Orlando, 1939, By Jack C. Lane - eFHQ */
+/* web article CSS */
+
+
+
+body {
+  background: url('../images/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+.container {
+	max-width: 800px;
+}
+
+.content {
+	max-width: 1200px;
+}
+
+.subheadfont {
+	font-family: coquette, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 32px;
+	line-height: 32px;
+	position: relative; top: -12px;
+/*	margin-left: 16%;*/
+}
+
+.bodyfont {
+	font-family: yrsa, serif;
+	font-weight: 400;
+	font-size: 18px;
+	font-style: normal;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.credits {
+	font-family: yrsa, serif;
+	font-weight: 400;
+	font-size: 20px;
+	font-style: normal;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.articleheaderfont {
+	font-family: ff-dax-compact-pro,sans-serif;
+	font-weight: 900;
+	font-style: black;
+	font-size: 72px;
+	line-height: 72px;
+	color: #000000;
+}
+
+.articleheaderflavor {
+	font-family: continuo,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 72px;
+	line-height: 72px;
+	color: #000000;
+}
+
+.tilde {
+	font-family: continuo,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 18px;
+	color: #d15538;
+}
+
+.personae {
+	font-family: ff-dax-compact-pro,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 32px;
+	line-height: 32px;
+	color: #000000;
+  text-align: left;
+  padding-top: 20pt
+}
+
+.sectionhead {
+  font-family: ff-dax-compact-pro, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-align: right;
+  font-size: 42px;
+  line-height: 42px;
+	color: #000000;
+}
+
+.sectionsubhead {
+  font-family: ff-dax-compact-pro, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-align: right;
+  font-size: 24px;
+  line-height: 24px;
+	color: #363636;
+}
+
+.headline {
+  font-family: lemonde-courrier,serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  text-align: center
+}
+
+.subheadline {
+  font-family: lemonde-courrier,serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  text-align: center
+}
+
+.progfoot {
+  max-width: 100%;
+}
+
+.dropcap{
+    float:left;
+}
+
+.rightimage{
+    float: right;
+    margin: 3px 3px 3px 3px;
+    border: 1px solid #000000;
+}
+
+.subhead {
+	font-family: coquette, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 32px;
+	line-height: 32px;
+	color: white;
+	background-color: #ae2f2f;
+}
+
+div.header img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  padding-top: 85px;
+	width: 100%;
+}
+
+div.brand {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+  align-content: right;
+  background-color: #ffffff;
+}
+
+div.newspaper {
+   background-image: url("/Users/mikeshier/OneDrive - University of Central Florida/Journals/FHQ/eFHQ/images/newspaper-background.png")
+}
+
+div.blockquote {
+  font-family: yrsa, serif;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  text-align: justify;
+  text-justify: inter-word;
+  background: #f7f3ea;
+  border-left: 10px solid #d15538;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+#lightbox {
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .8);
+  display: none;
+}
+
+#lightbox.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#lightbox img {
+  max-width: 90%;
+  max-height: 80%;
+  padding: 4px;
+  background-color: black;
+  border: 2px solid white;
+}
+
+a[data-footnote]:after {
+  content: attr(data-footnote);
+  vertical-align: super;
+  font-size: 9px;
+  font-family: yrsa, serif;
+}
+
+a[data-footnote] {
+  text-decoration: none;
+  position: relative;
+}
+
+a[data-footnote]:hover:before {
+  content: attr(data-title);
+  display: inline;
+  padding: 0.5em;
+  background: rgba(50, 50, 50, 0.95);
+  color: #FFF;
+  position: absolute;
+  top: -90%;
+  left: 110%;
+  border-radius: 1px;
+  width: 25em;
+  font-size: 12px;
+}
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #d15538;
+  width: 0%;
+}
+
+figure {
+  float: right;
+  width: 30%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
